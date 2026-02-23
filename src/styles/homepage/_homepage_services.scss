@@ -1,18 +1,18 @@
 main {
   .services {
     margin-top: 10rem;
-    p {
+    span {
       font-weight: 400;
       font-size: 2rem;
       color: #ff4d01;
       text-transform: uppercase;
-      margin-bottom: 1.5rem;
     }
     .services-title {
       margin-bottom: 6.4rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-top: 1.5rem;
       h3 {
         font-size: 5.4rem;
         font-weight: 400;
@@ -63,6 +63,7 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
         .card-img {
           margin-bottom: 3.2rem;
         }

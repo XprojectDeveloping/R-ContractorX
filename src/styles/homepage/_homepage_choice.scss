@@ -1,6 +1,7 @@
 main {
   .choice {
     margin-top: 10rem;
+    margin-bottom: 20rem;
 
     .choice-container {
       display: flex;
@@ -16,13 +17,13 @@ main {
           font-weight: 400;
           color: #ff4d01;
           text-transform: uppercase;
-          margin-bottom: 1.5rem;
         }
         h3 {
           font-size: 5rem;
           font-weight: 400;
           color: #191919;
           margin-bottom: 1.9rem;
+          margin-top: 1.5rem;
         }
         p {
           font-size: 1.8rem;

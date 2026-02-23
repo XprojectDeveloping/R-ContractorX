@@ -1,8 +1,11 @@
 import MaxWidth from "../components/MaxWidth/MaxWidth";
 import HomeAbout from "../components/sections/HomeAbout";
 import HomeBanner from "../components/sections/HomeBanner";
+import HomeBlog from "../components/sections/HomeBlog";
 import HomeChoice from "../components/sections/HomeChoice";
 import HomeCover from "../components/sections/HomeCover";
+import HomeProjects from "../components/sections/HomeProjects";
+import HomeReviews from "../components/sections/HomeReviews";
 import HomeServices from "../components/sections/HomeServices";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 
@@ -35,41 +38,89 @@ function HomePage(params) {
       </section>
       <section>
         <MaxWidth>
-          <HomeServices
-            title={data?.mainServices?.servicesTitleUp}
-            title2={data?.mainServices?.servicesTitleBottom}
-            btnText1={data?.mainServices?.servicesBtn1}
-            btnText2={data?.mainServices?.servicesBtn2}
-            dataCard={data?.mainServices?.servicesCards}
-          />
+          {data?.mainServices && (
+            <HomeServices
+              title={data?.mainServices?.servicesTitleUp}
+              title2={data?.mainServices?.servicesTitleBottom}
+              btnText1={data?.mainServices?.servicesBtn1}
+              btnText2={data?.mainServices?.servicesBtn2}
+              dataCard={data?.mainServices?.servicesCards}
+            />
+          )}
         </MaxWidth>
       </section>
       <section>
-        <HomeCover
-          bgImg={data?.mainCover?.coverImg}
-          title1={data?.mainCover?.coverTitle1}
-          title2={data?.mainCover?.coverTitle2}
-          text1={data?.mainCover?.coverText1}
-          text2={data?.mainCover?.coverText2}
-          btnText1={data?.mainCover?.coverBtn1}
-          btnText2={data?.mainCover?.coverBtn2}
-        ></HomeCover>
+        {data?.mainCover && (
+          <HomeCover
+            bgImg={data?.mainCover?.coverImg}
+            title1={data?.mainCover?.coverTitle1}
+            title2={data?.mainCover?.coverTitle2}
+            text1={data?.mainCover?.coverText1}
+            text2={data?.mainCover?.coverText2}
+            btnText1={data?.mainCover?.coverBtn1}
+            btnText2={data?.mainCover?.coverBtn2}
+          ></HomeCover>
+        )}
       </section>
 
       <section>
         <MaxWidth>
-          <HomeChoice
-            imgLeft={data?.mainChoice?.choiceImg1}
-            altLeft={data?.mainChoice?.choiceAlt}
-            title={data?.mainChoice?.choiceTitleUp}
-            title2Left={data?.mainChoice?.choiceTitleBottom1}
-            textLeft={data?.mainChoice?.choiceText1}
-            markData={data?.mainChoice?.choiceList1}
-            imgRigth={data?.mainChoice?.choiceImg2}
-            altRigth={data?.mainChoice?.choiceAlt}
-            title2Rigth={data?.mainChoice?.choiceTitleBottom2}
-            textRigth={data?.mainChoice?.choiceText2}
-          />
+          {data?.mainChoice && (
+            <HomeChoice
+              imgLeft={data?.mainChoice?.choiceImg1}
+              altLeft={data?.mainChoice?.choiceAlt}
+              title={data?.mainChoice?.choiceTitleUp}
+              title2Left={data?.mainChoice?.choiceTitleBottom1}
+              textLeft={data?.mainChoice?.choiceText1}
+              markData={data?.mainChoice?.choiceList1}
+              imgRigth={data?.mainChoice?.choiceImg2}
+              altRigth={data?.mainChoice?.choiceAlt}
+              title2Rigth={data?.mainChoice?.choiceTitleBottom2}
+              textRigth={data?.mainChoice?.choiceText2}
+            />
+          )}
+        </MaxWidth>
+      </section>
+
+      <section>
+        <MaxWidth>
+          {data?.mainProjects && (
+            <HomeProjects
+              title={data?.mainProjects?.projectsTitleUp}
+              title2={data?.mainProjects?.projectsTitleBottom}
+              btnText1={data?.mainProjects?.projectsBtn1}
+              btnText2={data?.mainProjects?.projectsBtn2}
+              dataCard={data?.mainProjects?.projectsCards}
+            />
+          )}
+        </MaxWidth>
+      </section>
+
+      <section>
+        <MaxWidth>
+          {data?.mainReviews && (
+            <HomeReviews
+              title={data?.mainReviews?.reviewsTitleUp}
+              title2={data?.mainReviews?.reviewsTitleBottom}
+              dataCard={data?.mainReviews?.reviewsCards}
+            />
+          )}
+        </MaxWidth>
+      </section>
+
+      <section>
+        <MaxWidth>
+          {data?.mainBlog && (
+            <HomeBlog
+              title={data?.mainBlog?.blogTitleUp}
+              title2={data?.mainBlog?.blogTitleBottom}
+              btnText={data?.mainBlog?.blogBtn}
+              img={data?.mainBlog?.blogImg}
+              alt={data?.mainBlog?.blogAlt}
+              text={data?.mainBlog?.blogText}
+              dataCard={data?.mainBlog?.blogCards}
+            />
+          )}
         </MaxWidth>
       </section>
     </main>

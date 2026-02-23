@@ -8,10 +8,12 @@ function HomeAbout({ img, title1, title2, text, buttonText }) {
           <img src={img} alt="construct" />
         </div>
         <div className="home-about-text">
-          <p className="title1">{title1}</p>
+          <span>{title1}</span>
 
-          <h2>{title2}</h2>
-          <p>{text}</p>
+          <div className="home-about-title">
+            <h3>{title2}</h3>
+            <p>{text}</p>
+          </div>
 
           <div className="home-about-num">
             <div className="num">
@@ -19,20 +21,20 @@ function HomeAbout({ img, title1, title2, text, buttonText }) {
                 <span>{"+"}</span>
                 {"350"}
               </p>
-              <span className="up">{"Executed Projects"}</span>
+              <p className="up">{"Executed Projects"}</p>
             </div>
             <div className="num">
               <p className="top">
                 {"12"} <span>{"Y"}</span>
               </p>
-              <span className="up">{"Experience"}</span>
+              <p className="up">{"Experience"}</p>
             </div>
             <div className="num">
               <p className="top">
                 <span>{"+"}</span>
                 {"400"}
               </p>
-              <span className="up">{"Satisfied Clients"}</span>
+              <p className="up">{"Satisfied Clients"}</p>
             </div>
           </div>
 

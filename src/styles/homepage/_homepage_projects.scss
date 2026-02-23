@@ -1,0 +1,110 @@
+main {
+  .projects {
+    margin-bottom: 10rem;
+
+    span {
+      font-size: 2rem;
+      font-weight: 400;
+      color: #ff4d01;
+      text-transform: uppercase;
+    }
+
+    .projects-title {
+      margin-bottom: 6.4rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1.5rem;
+
+      h3 {
+        font-size: 5rem;
+        font-weight: 400;
+        color: #191919;
+        width: 46rem;
+      }
+
+      .projects-buttons {
+        display: flex;
+        gap: 2.8rem;
+        button {
+          a {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: #ffffff;
+
+            &.one {
+              background-color: #ff4d01;
+              padding: 1.5rem 3.8rem;
+              transition: 0.3s linear;
+
+              &:hover {
+                background-color: #343434;
+              }
+            }
+
+            &.two {
+              border: 1px solid #191919;
+              color: #191919;
+              padding: 1.5rem 3.8rem;
+              transition: 0.3s linear;
+
+              &:hover {
+                background-color: #ff4d01;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+    .projects-cards {
+      .swiper {
+        .swiper-wrapper {
+          .swiper-slide {
+            .projects-card {
+              position: relative;
+              .projects-card-title {
+                position: absolute;
+                bottom: 2.9rem;
+                display: flex;
+                flex-direction: column;
+                padding: 0 3rem;
+
+                h3 {
+                  font-size: 3.4rem;
+                  font-weight: 400;
+                  color: #ffffff;
+                  margin-bottom: 1.6rem;
+                }
+                p {
+                  font-size: 1.8rem;
+                  font-weight: 400;
+                  color: #eaeaeb;
+                  padding-bottom: 4.3rem;
+                  border-bottom: 1px solid #989899;
+                  text-transform: lowercase;
+                }
+
+                .bottom {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  gap: 1rem;
+                  padding-top: 3rem;
+
+                  p {
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                    color: #eaeaeb;
+                    border-bottom: none;
+                    padding-bottom: inherit;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

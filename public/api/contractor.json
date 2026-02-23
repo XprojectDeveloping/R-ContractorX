@@ -133,96 +133,110 @@
     "choiceImg2": "/assets/img/homepage/choice/choice-img2.png"
   },
   "mainProjects": {
-    "projects-title-up": "/Past Projects",
-    "projects-title-bottom": "Our project results speak for themselves",
-    "projects-btn1": "Get a quote",
-    "projects-btn2": "Browse services",
-    "projects-cards": [
+    "projectsTitleUp": "/Past Projects",
+    "projectsTitleBottom": "Our project results speak for themselves",
+    "projectsBtn1": "Get a quote",
+    "projectsBtn2": "Browse services",
+    "projectsCards": [
       {
         "id": 1,
-        "card-img": "/assets/img/projects/card-img1.png",
-        "card-title": "Building construction in Los Angeles, CA",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
-        "card-ico": "/assets/img/projects/card-ico.svg",
-        "card-bottom-title": "Construction"
+        "cardImg": "/assets/img/projects/card-img1.png",
+        "cardAlt": "project",
+        "cardTitle": "Building construction in Los Angeles, CA",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
+        "cardIco": "/assets/img/projects/card-ico.svg",
+        "cardIcoAlt": "project",
+        "cardBottomTitle": "Construction"
       },
       {
         "id": 2,
-        "card-img": "/assets/img/projects/card-img2.png",
-        "card-title": "Kitchen remodeling in Hollywood Hills, CA",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
-        "card-ico": "/assets/img/projects/card-ico.svg",
-        "card-bottom-title": "Remodeling"
+        "cardImg": "/assets/img/projects/card-img2.png",
+        "cardAlt": "project",
+        "cardTitle": "Kitchen remodeling in Hollywood Hills, CA",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
+        "cardIco": "/assets/img/projects/card-ico.svg",
+        "cardIcoAlt": "project",
+        "cardBottomTitle": "Remodeling"
       },
       {
         "id": 3,
-        "card-img": "/assets/img/projects/card-img3.png",
-        "card-title": "Office remodeling in Hollywood Hills, CA",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
-        "card-ico": "/assets/img/projects/card-ico.svg",
-        "card-bottom-title": "Remodeling"
+        "cardImg": "/assets/img/projects/card-img1.png",
+        "cardAlt": "project",
+        "cardTitle": "Office remodeling in Hollywood Hills, CA",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus aenean sit elementum pellentesque ultrices sem.",
+        "cardIco": "/assets/img/projects/card-ico.svg",
+        "cardIcoAlt": "project",
+        "cardBottomTitle": "Remodeling"
       }
     ]
   },
   "mainReviews": {
-    "reviews-title-up": "/Testimonials",
-    "reviews-title-bottom": "What our clients say about us and our work",
-    "reviews-cards": [
+    "reviewsTitleUp": "/Testimonials",
+    "reviewsTitleBottom": "What our clients say about us and our work",
+    "reviewsCards": [
       {
         "id": 1,
-        "card-img": "/assets/img/homepage/reviews/card-img1.png",
-        "card-title": "“A true team of expert contractors”",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis senectus non dui vel tortor. Justo lectus integer arcu elit.",
-        "card-name": "John Carter",
-        "card-position": "Malibu beach, CA  "
+        "cardImg": "/assets/img/homepage/reviews/card-img1.png",
+        "cardAlt": "review",
+        "cardTitle": "“A true team of expert contractors”",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis senectus non dui vel tortor. Justo lectus integer arcu elit.",
+        "cardName": "John Carter",
+        "cardPosition": "Malibu beach, CA  "
       },
       {
         "id": 2,
-        "card-img": "/assets/img/homepage/reviews/card-img2.png",
-        "card-title": "“A team that never undelivers”",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit.",
-        "card-name": "Lily Woods",
-        "card-position": "HollyWOODS hILLS, ca"
+        "cardImg": "/assets/img/homepage/reviews/card-img2.png",
+        "cardAlt": "review",
+        "cardTitle": "“A team that never undelivers”",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit.",
+        "cardName": "Lily Woods",
+        "cardPosition": "HollyWOODS hILLS, ca"
       },
       {
         "id": 3,
-        "card-img": "/assets/img/homepage/reviews/card-img1.png",
-        "card-title": "“A true team of expert contractors”",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis senectus non dui vel tortor. Justo lectus integer arcu elit.",
-        "card-name": "John Carter",
-        "card-position": "Malibu beach, CA  "
+        "cardImg": "/assets/img/homepage/reviews/card-img1.png",
+        "cardAlt": "review",
+        "cardTitle": "“A true team of expert contractors”",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis senectus non dui vel tortor. Justo lectus integer arcu elit.",
+        "cardName": "John Carter",
+        "cardPosition": "Malibu beach, CA  "
       },
       {
         "id": 4,
-        "card-img": "/assets/img/homepage/reviews/card-img2.png",
-        "card-title": "“A team that never undelivers”",
-        "card-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit.",
-        "card-name": "Lily Woods",
-        "card-position": "HollyWOODS hILLS, ca"
+        "cardImg": "/assets/img/homepage/reviews/card-img2.png",
+        "cardAlt": "review",
+        "cardTitle": "“A team that never undelivers”",
+        "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit.",
+        "cardName": "Lily Woods",
+        "cardPosition": "HollyWOODS hILLS, ca"
       }
     ]
   },
   "mainBlog": {
-    "blog-title-up": "/Blog",
-    "blog-title-bottom": "Articles & News",
-    "blog-btn": "Browse articles",
-    "blog-img": "/assets/img/blog/blog-img.png",
-    "blog-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis senectus non dui vel tortor. Justo lectus integer arcu elit.",
-    "bloq-cards": [
+    "blogTitleUp": "/Blog",
+    "blogTitleBottom": "Articles & News",
+    "blogBtn": "Browse articles",
+    "blogAlt": "blog",
+    "blogImg": "/assets/img/blog/blog-img.png",
+    "blogText": "12 designers tricks for picking the perfect home color palette",
+    "blogCards": [
       {
         "id": 1,
-        "card-img": "/assets/img/blog/card-img1.png",
-        "card-title": "Paint trends 2022 - the 17 colors you need for the ultimate wonder walls"
+        "cardImg": "/assets/img/blog/card-img1.png",
+        "cardAlt": "blog",
+        "cardTitle": "Paint trends 2022 - the 17 colors you need for the ultimate wonder walls"
       },
       {
         "id": 2,
-        "card-img": "/assets/img/blog/card-img2.png",
-        "card-title": "Clever DIY home improvements you can do during the pandemic"
+        "cardImg": "/assets/img/blog/card-img2.png",
+        "cardAlt": "blog",
+        "cardTitle": "Clever DIY home improvements you can do during the pandemic"
       },
       {
         "id": 3,
-        "card-img": "/assets/img/blog/card-img3.png",
-        "card-title": "15 mind blowing floor designs to make your home look great"
+        "cardImg": "/assets/img/blog/card-img3.png",
+        "cardAlt": "blog",
+        "cardTitle": "15 mind blowing floor designs to make your home look great"
       }
     ]
   },
