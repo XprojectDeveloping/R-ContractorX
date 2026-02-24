@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 import { useEffect, useState } from "react";
 import "../styles/layout/_header.scss";
-function Header(params) {
+function Header() {
   const { data } = useGlobalFetch();
   const [scroll, setScroll] = useState(false);
   const SCROLL_Y = 200;
