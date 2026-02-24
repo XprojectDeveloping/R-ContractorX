@@ -1,29 +1,24 @@
 header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 2000;
-  overflow: hidden;
-  max-width: 1108px;
-  margin: 0 auto;
-  padding-right: 20rem;
-
   &.header-scroll {
     position: fixed;
     top: 0;
     right: 0;
     z-index: 2000;
-    background-color: gray;
+    background-color: #808080;
     max-width: inherit;
     width: 100%;
     padding-right: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .header-block {
     display: flex;
-    padding-top: 3.2rem;
+    justify-content: center;
+    padding: 3.2rem;
     gap: 3.2rem;
     transition: 0.3s linear;
+    background-color: #808080;
 
     &.header-scroll-block {
       padding: 2rem 2rem;
@@ -35,8 +30,8 @@ header {
       font-size: 1.8rem;
       color: #ffffff;
       transition: 0.3s linear;
-     
-      &.active{
+
+      &.active {
         color: #ff4d01;
       }
 
