@@ -19,8 +19,8 @@ function HomeReviews({ title, title2, dataCard }) {
               566: { slidesPerView: 1, spaceBetween: 0 },
               640: { slidesPerView: 1, spaceBetween: 0 },
               767: { slidesPerView: 1, spaceBetween: 0 },
-              1024: { slidesPerView: 2, spaceBetween: 60 },
-              1280: { slidesPerView: 2, spaceBetween: 60 },
+              1024: { slidesPerView: 1, spaceBetween: 60 },
+              1280: { slidesPerView: 1, spaceBetween: 60 },
             }}
             loop={true}
           >

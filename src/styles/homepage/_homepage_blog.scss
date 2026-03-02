@@ -26,18 +26,17 @@ main {
         font-size: 1.8rem;
         font-weight: 400;
         color: #191919;
-        border: 1px solid #191919;
+        outline: 1px solid #191919;
         padding: 1.5rem 3.8rem;
 
         &.one {
           background-color: #ffffff;
-
           transition: 0.3s linear;
 
           &:hover {
             background-color: #343434;
             color: #ffffff;
-            border: none;
+            outline: none;
           }
         }
       }

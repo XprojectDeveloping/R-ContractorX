@@ -73,14 +73,14 @@ main {
         font-size: 1.8rem;
         font-weight: 400;
         color: #191919;
-        border: 2px solid #191919;
+        outline: 2px solid #191919;
         padding: 1.8rem 2.9rem;
         transition: 0.3s linear;
 
         &:hover {
           color: white;
           background-color: #605e5d;
-          border: none;
+          outline: none;
         }
       }
     }
@@ -212,7 +212,7 @@ main {
   main {
     .about {
       .about-text {
-        a{
+        a {
           padding: 1.3rem 1.9rem;
         }
       }
