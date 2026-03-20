@@ -14,16 +14,6 @@
       "id": 3,
       "to": "/blog",
       "link_name": "Blog"
-    },
-    {
-      "id": 4,
-      "to": "/services",
-      "link_name": "Services"
-    },
-    {
-      "id": 5,
-      "to": "/contact",
-      "link_name": "Contact"
     }
   ],
   "mainBanner": {
@@ -239,6 +229,7 @@
     "blogAlt": "blog",
     "blogImg": "/assets/img/blog/blog-img.png",
     "blogText": "12 designers tricks for picking the perfect home color palette",
+    "blogText2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
     "blogCards": [
       {
         "id": 1,
@@ -260,6 +251,7 @@
       }
     ]
   },
+
   "footer": {
     "footerTopTitle": "Menu",
     "footerTopLinks": [

@@ -1,5 +1,5 @@
 import MaxWidth from "../components/MaxWidth/MaxWidth";
-import AboutHome from "../components/sections/about/Abouthome";
+import AboutHome from "../components/sections/about/abouthome";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 import { motion } from "framer-motion";
 function About() {

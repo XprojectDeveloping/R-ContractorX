@@ -3,30 +3,9 @@ import MaxWidth from "../components/MaxWidth/MaxWidth";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 import "../styles/layout/_footer.scss";
 import { useState } from "react";
+import Form from "../components/FormData/Form";
 function Footer() {
   const { data } = useGlobalFetch();
-  const [form, setForm] = useState({
-    name: "",
-    phone: "",
-    email: "",
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-
-    setForm((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
-  const handeSubmit = (e) => {
-    e.preventDefault();
-
-    if (!form.name || !form.phone || !form.email) {
-      alert("Please fill in all fields");
-      return;
-    }
-  };
 
   return (
     <footer>
@@ -43,37 +22,8 @@ function Footer() {
                 );
               })}
           </div>
-          <div className="footer-form">
-            <p>{data?.footer?.footerTopContactUs} </p>
-            <form onSubmit={handeSubmit}>
-              <div className="form-block">
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  value={form.name}
-                  onChange={handleChange}
-                />
-                <input
-                  type="tel"
-                  name="phone"
-                  placeholder="Phone"
-                  value={form.phone}
-                  onChange={handleChange}
-                />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  value={form.email}
-                  onChange={handleChange}
-                />
-              </div>
-              <div className="button-block">
-                <button type="submit">{data?.footer?.footerButton}</button>
-              </div>
-            </form>
-          </div>
+          <Form form={data?.footer?.footerTopContactUs} />
+
           <div className="footer-top-contact">
             <p>{data?.footer?.footerTopContactTitle}</p>
             <div className="footer-top-contacts">

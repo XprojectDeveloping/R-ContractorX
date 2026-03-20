@@ -1,4 +1,5 @@
-import "../../../styles/about/about-home.scss";
+import "../../../styles/about/_about-home.scss";
+
 function AboutHome({ img, alt, title, text }) {
   return (
     <>

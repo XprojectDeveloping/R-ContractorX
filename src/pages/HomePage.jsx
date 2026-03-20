@@ -9,7 +9,7 @@ import HomeReviews from "../components/sections/homepage/HomeReviews";
 import HomeServices from "../components/sections/homepage/HomeServices";
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch";
 import { motion } from "framer-motion";
-function HomePage({ text }) {
+function HomePage() {
   const { data } = useGlobalFetch();
   return (
     <main>
