@@ -45,7 +45,7 @@ header {
 @media screen and (max-width: 767px) {
   header {
     .header-block {
-      padding: 2.2rem;
+      padding: 1.2rem 4.2rem;
       a {
         font-size: 1.6rem;
       }
@@ -54,10 +54,4 @@ header {
 }
 
 @media screen and (max-width: 560px) {
-  header {
-    &.header-scroll {
-      position: fixed;
-      padding: 0 2rem;
-    }
-  }
 }

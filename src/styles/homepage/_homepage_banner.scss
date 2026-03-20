@@ -141,7 +141,6 @@ main {
         }
 
         .banner-buttons {
-          flex-direction: column;
           gap: 0.9rem;
           a {
             &.one {
@@ -160,10 +159,24 @@ main {
 @media screen and (max-width: 480px) {
   main {
     .banner {
+      .banner-img {
+        height: 28vh;
+      }
       .banner-text {
+        p {
+          display: none;
+        }
         .banner-buttons {
           a {
             font-size: 1.3rem;
+
+            &.one {
+              padding: 0.9rem;
+            }
+
+            &.two {
+              padding: 0.9rem;
+            }
           }
         }
       }
