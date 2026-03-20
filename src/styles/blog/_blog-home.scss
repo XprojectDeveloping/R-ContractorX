@@ -24,3 +24,72 @@ main {
     }
   }
 }
+
+@media screen and (max-width: 1023px) {
+  main {
+    .blog-single {
+      flex-direction: column-reverse;
+
+      .blog-text {
+        h3 {
+          line-height: normal;
+        }
+
+        p {
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    .blog-single {
+      margin-bottom: 5rem;
+      margin-top: 5rem;
+      gap: 5rem;
+
+      .blog-img {
+        img {
+          width: 100%;
+          max-width: 600px; /* максимальный размер */
+          height: auto;
+        }
+      }
+
+      .blog-text {
+        h3 {
+          font-size: 4.4rem;
+        }
+
+        p {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 566px) {
+  main {
+    .blog-single {
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+      gap: 3rem;
+
+      .blog-text {
+        h3 {
+          font-size: 3.4rem;
+        }
+
+        p {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

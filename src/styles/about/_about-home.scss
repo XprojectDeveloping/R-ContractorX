@@ -13,7 +13,7 @@ main {
     }
 
     .about-text {
-      h2 {
+      h3 {
         font-size: 5.4rem;
         font-weight: 400;
         color: #191919;
@@ -29,4 +29,70 @@ main {
       }
     }
   }
+}
+
+@media screen and (max-width: 1023px) {
+  main {
+    .about-home {
+      flex-direction: column-reverse;
+
+      .about-img {
+        img {
+          width: 100%;
+          max-width: 600px;
+          height: auto;
+        }
+      }
+
+      .about-text {
+        h3 {
+          line-height: normal;
+        }
+        p {
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    .about-home {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+
+      .about-text {
+        h3 {
+          font-size: 4.4rem;
+        }
+
+        p {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 566px) {
+  main {
+    .about-home {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+
+      .about-text {
+        h3 {
+          font-size: 3.4rem;
+        }
+
+        p {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
 }

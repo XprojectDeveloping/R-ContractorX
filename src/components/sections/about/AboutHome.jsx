@@ -8,7 +8,7 @@ function AboutHome({ img, alt, title, text }) {
           <img src={img} alt={alt} />
         </div>
         <div className="about-text">
-          <h2>{title}</h2>
+          <h3>{title}</h3>
 
           <p>{text}</p>
         </div>
