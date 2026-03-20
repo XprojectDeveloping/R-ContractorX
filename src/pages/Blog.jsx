@@ -1,5 +1,6 @@
 import MaxWidth from "../components/MaxWidth/MaxWidth";
-import BlogHome from "../components/sections/blog/Bloghome.jsx";
+import BlogHome from "../components/sections/blog/BlogHome.jsx";
+
 import useGlobalFetch from "../components/useGlobalFetch/useGlobalFetch.jsx";
 import { motion } from "framer-motion";
 function Bloq() {
