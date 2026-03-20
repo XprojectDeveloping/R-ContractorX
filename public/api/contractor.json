@@ -1,4 +1,69 @@
 {
+  "metaData": {
+    "home": {
+      "title": "Contractor X - Home",
+      "description": "Contractor X is a leading contracting company that provides a wide range of services to clients in the construction industry. With over 15 years of experience, we have built a reputation for delivering high-quality work and exceptional customer service. Our team of skilled professionals is dedicated to helping our clients achieve their goals and bring their visions to life. Whether you're looking for project planning, project management, general contracting, interior design, exterior design, or space planning services, Contractor X has the expertise and resources to get the job done right.",
+      "keywords": "contractor, construction, project planning, project management, general contracting, interior design, exterior design, space planning",
+      "author": "XPROJECT, XPROKECTFILES, PHOENIX_XCODE, Contractor X",
+      "og:title": "ContractorX — Professional Construction & Contracting Services",
+      "og:description": "High-quality construction and contracting services. We build with precision and reliability.",
+      "og:type": "website",
+      "og:url": "https://www-r-contractor-x.vercel.app/",
+      "og:image": "/assets/img/metaimg.png",
+      "og:site_name": "Contractor X",
+      "og:locale": "en_US",
+
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Contractor X — Professional Construction Services",
+      "twitter:description": "High-quality construction and contracting services.",
+      "twitter:image": "/assets/img/metaimg.png",
+
+      "robots": "index, follow",
+      "canonical": "https://www-r-contractor-x.vercel.app/"
+    },
+    "about": {
+      "title": "Contractor X - About Us",
+      "description": "Learn about ContractorX — our mission, values, and the experienced team behind every successful construction project we deliver.",
+      "keywords": "about ContractorX, construction team, our mission, contracting experts, building professionals",
+      "author": "XPROJECT, XPROKECTFILES, PHOENIX_XCODE, Contractor X",
+      "og:title": "About ContractorX — Our Story & Team",
+      "og:description": "Meet the team behind ContractorX. Experienced contractors dedicated to quality, safety, and excellence in every project.",
+      "og:type": "website",
+      "og:url": "https://www-r-contractor-x.vercel.app/about",
+      "og:image": "/assets/img/metaimg.png",
+      "og:site_name": "Contractor X",
+      "og:locale": "en_US",
+
+      "twitter:card": "summary_large_image",
+      "twitter:title": "About Contractor X — Our Story & Team",
+      "twitter:description": "Meet the team behind ContractorX.",
+      "twitter:image": "/assets/img/metaimg.png",
+
+      "robots": "index, follow",
+      "canonical": "https://www-r-contractor-x.vercel.app/about"
+    },
+    "blog": {
+      "title": "Contractor X - Blog",
+      "description": "Explore the ContractorX blog for construction tips, industry news, project insights, and expert advice from our team of professionals.",
+      "keywords": "construction blog, contracting tips, building advice, industry news, ContractorX blog",
+      "author": "XPROJECT, XPROKECTFILES, PHOENIX_XCODE, Contractor X",
+      "og:title": "ContractorX Blog — Construction Tips & Industry Insights",
+      "og:description": "Stay updated with the latest construction trends, tips, and project highlights from the ContractorX team.",
+      "og:type": "website",
+      "og:url": "https://www-r-contractor-x.vercel.app/blog",
+      "og:image": "/assets/img/metaimg.png",
+      "og:site_name": "Contractor X",
+      "og:locale": "en_US",
+
+      "twitter:card": "summary_large_image",
+      "twitter:title": "ContractorX Blog — Construction Tips & Insights",
+      "twitter:description": "Latest construction trends and tips from ContractorX.",
+      "twitter:image": "/assets/img/metaimg.png",
+
+      "robots": "index, follow",
+      "canonical": "https://www-r-contractor-x.vercel.app/blog"
+    }
+  },
   "header": [
     {
       "id": 1,
@@ -21,9 +86,9 @@
     "bannerTitle": "We provide effective contracting services",
     "bannerText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis quisque erat.",
     "bannerBtn1": "Contact us",
-    "btnTo1": "/contact",
+    "btnTo1": "/",
     "bannerBtn2": "Our services",
-    "btnTo2": "/services"
+    "btnTo2": "/"
   },
   "mainAbout": {
     "aboutImg": "/assets/img/homepage/about/about-img.png",
@@ -41,7 +106,7 @@
     "servicesText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique imperdiet nisi metus, viverra nulla aliquet dui porta porttitor neque lectus diam justo lobortis purus in elit, elementum dignissim nullam vitae pellentesque aliquet aliquam sagittis pulvinar egestas morbi suspendisse eleifend.",
     "servicesBtn1": "Get a quote",
     "servicesBtn2": "Browse services",
-    "btnTo": "/services",
+    "btnTo": "/",
     "servicesCards": [
       {
         "id": 1,
@@ -50,7 +115,7 @@
         "cardTitle": "Project Planning",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
         "cardLink": "Learn more",
-        "cardLinkTo": "/services"
+        "cardLinkTo": "/"
       },
       {
         "id": 2,
@@ -59,7 +124,7 @@
         "cardTitle": "Project Management",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
         "cardLink": "Learn more",
-        "cardLinkTo": "/services"
+        "cardLinkTo": "/"
       },
       {
         "id": 3,
@@ -68,7 +133,7 @@
         "cardTitle": "General Contracting",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
         "cardLink": "Learn more",
-        "cardLinkTo": "/services"
+        "cardLinkTo": "/"
       },
       {
         "id": 4,
@@ -77,7 +142,7 @@
         "cardTitle": "Interior Design",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
         "cardLink": "Learn more",
-        "cardLinkTo": "/services"
+        "cardLinkTo": "/"
       },
       {
         "id": 5,
@@ -86,7 +151,7 @@
         "cardTitle": "Exterior Design",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
         "cardLink": "Learn more",
-        "cardLinkTo": "/services"
+        "cardLinkTo": "/"
       },
       {
         "id": 6,
@@ -95,7 +160,7 @@
         "cardTitle": "Space Planning",
         "cardText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit quis eget morbi fermentum sagittis, et mi lacus ornare tincidunt id.",
         "cardLink": "Learn more",
-        "cardLinkTo": "/services"
+        "cardLinkTo": "/"
       }
     ]
   },
@@ -108,7 +173,7 @@
     "coverText2": "varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis.",
     "coverBtn1": "Get a quote",
     "coverBtn2": "Our services",
-    "btnTo": "/services"
+    "btnTo": "/"
   },
   "mainChoice": {
     "choiceTitleUp": "/Why Choose Us",
@@ -145,7 +210,7 @@
     "projectsTitleBottom": "Our project results speak for themselves",
     "projectsBtn1": "Get a quote",
     "projectsBtn2": "Browse services",
-    "btnTo": "/services",
+    "btnTo": "/",
     "projectsCards": [
       {
         "id": 1,
@@ -251,7 +316,6 @@
       }
     ]
   },
-
   "footer": {
     "footerTopTitle": "Menu",
     "footerTopLinks": [
@@ -269,16 +333,6 @@
         "id": 3,
         "linkName": "Blog",
         "to": "/blog"
-      },
-      {
-        "id": 4,
-        "linkName": "Contact",
-        "to": "/contact"
-      },
-      {
-        "id": 5,
-        "linkName": "Services",
-        "to": "/services"
       }
     ],
     "footerTopContactUs": "Contact Us",
