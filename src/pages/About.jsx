@@ -7,9 +7,6 @@ function About() {
   const { data } = useGlobalFetch();
   return (
     <main>
-      <Helmet>
-        <title>{data?.metaData?.about?.title}</title>
-      </Helmet>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

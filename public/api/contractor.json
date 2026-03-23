@@ -1,15 +1,4 @@
 {
-  "metaData": {
-    "home": {
-      "title": "Contractor X - Home"
-    },
-    "about": {
-      "title": "Contractor X - About Us"
-    },
-    "blog": {
-      "title": "Contractor X - Blog"
-    }
-  },
   "header": [
     {
       "id": 1,
@@ -300,6 +289,6 @@
         "contactInfo": "info@contractor.com"
       }
     ],
-    "footerBottomTitle": "Copyright © Contractor X"
+    "footerBottomTitle": "© 2026 Contractor X. All rights reserved. Serving Los Angeles & Hollywood Hills."
   }
 }

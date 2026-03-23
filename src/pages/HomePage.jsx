@@ -14,9 +14,6 @@ function HomePage() {
   const { data } = useGlobalFetch();
   return (
     <main>
-      <Helmet>
-        <title>{data?.metaData?.home?.title}</title>
-      </Helmet>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
