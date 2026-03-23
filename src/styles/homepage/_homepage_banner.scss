@@ -160,6 +160,9 @@ main {
   main {
     .banner {
       .banner-text {
+        p {
+          display: none;
+        }
         .banner-buttons {
           display: none;
           a {
