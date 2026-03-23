@@ -16,50 +16,6 @@ function HomePage() {
     <main>
       <Helmet>
         <title>{data?.metaData?.home?.title}</title>
-        <meta name="description" content={data?.metaData?.home?.description} />
-        <meta name="keywords" content={data?.metaData?.home.keywords} />
-        <meta name="author" content={data?.metaData?.home?.author} />
-        <meta name="robots" content={data?.metaData?.home?.robots} />
-        <meta
-          property="og:title"
-          content={data?.metaData?.home?.["og:title"]}
-        />
-        <meta
-          property="og:description"
-          content={data?.metaData?.home?.["og:description"]}
-        />
-        <meta property="og:type" content={data?.metaData?.home?.["og:type"]} />
-        <meta property="og:url" content={data?.metaData?.home?.["og:url"]} />
-        <meta
-          property="og:image"
-          content={data?.metaData?.home?.["og:image"]}
-        />
-        <meta
-          property="og:site_name"
-          content={data?.metaData?.home?.["og:site_name"]}
-        />
-        <meta
-          property="og:locale"
-          content={data?.metaData?.home?.["og:locale"]}
-        />
-
-        <meta
-          property="twitter:card"
-          content={data?.metaData?.home?.["twitter:card"]}
-        />
-        <meta
-          property="twitter:title"
-          content={data?.metaData?.home?.["twitter:title"]}
-        />
-        <meta
-          property="twitter:description"
-          content={data?.metaData?.home?.["twitter:description"]}
-        />
-        <meta
-          property="twitter:image"
-          content={data?.metaData?.home?.["twitter:image"]}
-        />
-        <link rel="canonical" href={data?.metaData?.home?.canonical} />
       </Helmet>
       <motion.div
         initial={{ opacity: 0 }}

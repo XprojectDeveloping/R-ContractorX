@@ -1,67 +1,13 @@
 {
   "metaData": {
     "home": {
-      "title": "Contractor X - Home",
-      "description": "Contractor X is a leading contracting company that provides a wide range of services to clients in the construction industry. With over 15 years of experience, we have built a reputation for delivering high-quality work and exceptional customer service. Our team of skilled professionals is dedicated to helping our clients achieve their goals and bring their visions to life. Whether you're looking for project planning, project management, general contracting, interior design, exterior design, or space planning services, Contractor X has the expertise and resources to get the job done right.",
-      "keywords": "contractor, construction, project planning, project management, general contracting, interior design, exterior design, space planning",
-      "author": "XPROJECT, XPROKECTFILES, PHOENIX_XCODE, Contractor X",
-      "og:title": "ContractorX — Professional Construction & Contracting Services",
-      "og:description": "High-quality construction and contracting services. We build with precision and reliability.",
-      "og:type": "website",
-      "og:url": "https://www-r-contractor-x.vercel.app/",
-      "og:image": "/assets/img/metaimg.png",
-      "og:site_name": "Contractor X",
-      "og:locale": "en_US",
-
-      "twitter:card": "summary_large_image",
-      "twitter:title": "Contractor X — Professional Construction Services",
-      "twitter:description": "High-quality construction and contracting services.",
-      "twitter:image": "/assets/img/metaimg.png",
-
-      "robots": "index, follow",
-      "canonical": "https://www-r-contractor-x.vercel.app/"
+      "title": "Contractor X - Home"
     },
     "about": {
-      "title": "Contractor X - About Us",
-      "description": "Learn about ContractorX — our mission, values, and the experienced team behind every successful construction project we deliver.",
-      "keywords": "about ContractorX, construction team, our mission, contracting experts, building professionals",
-      "author": "XPROJECT, XPROKECTFILES, PHOENIX_XCODE, Contractor X",
-      "og:title": "About ContractorX — Our Story & Team",
-      "og:description": "Meet the team behind ContractorX. Experienced contractors dedicated to quality, safety, and excellence in every project.",
-      "og:type": "website",
-      "og:url": "https://www-r-contractor-x.vercel.app/about",
-      "og:image": "/assets/img/metaimg.png",
-      "og:site_name": "Contractor X",
-      "og:locale": "en_US",
-
-      "twitter:card": "summary_large_image",
-      "twitter:title": "About Contractor X — Our Story & Team",
-      "twitter:description": "Meet the team behind ContractorX.",
-      "twitter:image": "/assets/img/metaimg.png",
-
-      "robots": "index, follow",
-      "canonical": "https://www-r-contractor-x.vercel.app/about"
+      "title": "Contractor X - About Us"
     },
     "blog": {
-      "title": "Contractor X - Blog",
-      "description": "Explore the ContractorX blog for construction tips, industry news, project insights, and expert advice from our team of professionals.",
-      "keywords": "construction blog, contracting tips, building advice, industry news, ContractorX blog",
-      "author": "XPROJECT, XPROKECTFILES, PHOENIX_XCODE, Contractor X",
-      "og:title": "ContractorX Blog — Construction Tips & Industry Insights",
-      "og:description": "Stay updated with the latest construction trends, tips, and project highlights from the ContractorX team.",
-      "og:type": "website",
-      "og:url": "https://www-r-contractor-x.vercel.app/blog",
-      "og:image": "/assets/img/metaimg.png",
-      "og:site_name": "Contractor X",
-      "og:locale": "en_US",
-
-      "twitter:card": "summary_large_image",
-      "twitter:title": "ContractorX Blog — Construction Tips & Insights",
-      "twitter:description": "Latest construction trends and tips from ContractorX.",
-      "twitter:image": "/assets/img/metaimg.png",
-
-      "robots": "index, follow",
-      "canonical": "https://www-r-contractor-x.vercel.app/blog"
+      "title": "Contractor X - Blog"
     }
   },
   "header": [
