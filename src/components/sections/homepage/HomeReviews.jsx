@@ -1,19 +1,24 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../../styles/homepage/_homepape_reviews.scss";
-function HomeReviews({ title, title2, dataCard }) {
+import { Autoplay } from "swiper/modules";
+function HomeReviews({ reviews, dataCard }) {
   return (
     <>
       <div className="reviews">
-        <span>{title}</span>
+        <span>{reviews?.reviewsTitleUp}</span>
 
         <div className="reviews-title">
-          <h3>{title2}</h3>
+          <h3>{reviews?.reviewsTitleBottom}</h3>
         </div>
 
         <div className="reviews-cards">
           <Swiper
             slidesPerView={1}
             spaceBetween={0}
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
             breakpoints={{
               480: { slidesPerView: 1, spaceBetween: 0 },
               566: { slidesPerView: 1, spaceBetween: 0 },
@@ -23,6 +28,7 @@ function HomeReviews({ title, title2, dataCard }) {
               1280: { slidesPerView: 1, spaceBetween: 60 },
             }}
             loop={true}
+            modules={[Autoplay]}
           >
             {dataCard &&
               dataCard?.map((item) => {

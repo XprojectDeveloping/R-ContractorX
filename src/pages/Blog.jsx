@@ -17,13 +17,7 @@ function Bloq() {
         >
           <section>
             <MaxWidth>
-              {data.mainBlog && (
-                <BlogHome
-                  title={data?.mainBlog?.blogTitleBottom}
-                  text={data?.mainBlog?.blogText2}
-                  img={data?.mainBlog?.blogImg}
-                />
-              )}
+              {data.mainBlog && <BlogHome blog={data?.mainBlog} />}
             </MaxWidth>
           </section>
         </motion.div>

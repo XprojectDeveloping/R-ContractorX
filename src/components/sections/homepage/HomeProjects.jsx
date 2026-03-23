@@ -1,23 +1,24 @@
 import { Link } from "react-router-dom";
 import "../../../styles/homepage/_homepage_projects.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
-function HomeProjects({ title, title2, btnText1, btnText2, dataCard, btnTo }) {
+function HomeProjects({ projects, dataCard }) {
   return (
     <>
       <div className="projects">
-        <span>{title}</span>
+        <span>{projects?.projectsTitleUp}</span>
 
         <div className="projects-title">
-          <h3>{title2}</h3>
+          <h3>{projects?.projectsTitleBottom}</h3>
 
           <div className="projects-buttons">
             <Link className="one" to={"/"}>
-              {btnText1}
+              {projects?.projectsBtn1}
             </Link>
 
-            <Link className="two" to={btnTo || "/"}>
-              {btnText2}
+            <Link className="two" to={projects?.btnTo || "/"}>
+              {projects?.projectsBtn2}
             </Link>
           </div>
         </div>
@@ -25,6 +26,10 @@ function HomeProjects({ title, title2, btnText1, btnText2, dataCard, btnTo }) {
           <Swiper
             slidesPerView={1}
             spaceBetween={60}
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
             breakpoints={{
               480: { slidesPerView: 1, spaceBetween: 0 },
               566: { slidesPerView: 1, spaceBetween: 0 },
@@ -34,6 +39,7 @@ function HomeProjects({ title, title2, btnText1, btnText2, dataCard, btnTo }) {
               1280: { slidesPerView: 2, spaceBetween: 60 },
             }}
             loop={true}
+            modules={[Autoplay]}
           >
             {dataCard &&
               dataCard?.map((item) => {

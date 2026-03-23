@@ -1,16 +1,16 @@
 import "../../../styles/about/_about-home.scss";
 
-function AboutHome({ img, alt, title, text }) {
+function AboutHome({ about }) {
   return (
     <>
       <div className="about-home">
         <div className="about-img">
-          <img src={img} alt={alt} />
+          <img src={about?.aboutImg} alt={about?.aboutAlt} />
         </div>
         <div className="about-text">
-          <h3>{title}</h3>
+          <h3>{about?.aboutTitleBottom}</h3>
 
-          <p>{text}</p>
+          <p>{about?.aboutText2}</p>
         </div>
       </div>
     </>

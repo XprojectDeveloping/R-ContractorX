@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
 import "../../../styles/homepage/_homepage_services.scss";
-function HomeServices({ title, title2, btnText1, btnText2, dataCard, btnTo }) {
+import { s } from "framer-motion/m";
+function HomeServices({ services, dataCard }) {
   return (
     <>
       <div className="services">
-        <span>{title}</span>
+        <span>{services?.servicesTitleUp}</span>
 
         <div className="services-title">
-          <h3>{title2}</h3>
+          <h3>{services?.servicesTitleBottom}</h3>
           <div className="services-buttons">
             <Link className="one" to={"/"}>
-              {btnText1}
+              {services?.servicesBtn1}
             </Link>
 
-            <Link className="two" to={btnTo || "/"}>
-              {btnText2}
+            <Link className="two" to={services?.btnTo || "/"}>
+              {services?.servicesBtn2}
             </Link>
           </div>
         </div>

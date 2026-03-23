@@ -1,28 +1,17 @@
 import "../../../styles/homepage/_homepage_choice.scss";
-function HomeChoice({
-  imgLeft,
-  altLedft,
-  title,
-  title2Left,
-  textLeft,
-  markData,
-  imgRigth,
-  altRigth,
-  title2Rigth,
-  textRigth,
-}) {
+function HomeChoice({ choice, markData }) {
   return (
     <>
       <div className="choice">
         <div className="choice-container">
           <div className="choice-img">
-            <img src={imgLeft} alt={altLedft} />
+            <img src={choice?.choiceImg1} alt={choice?.choiceAlt} />
           </div>
 
           <div className="choice-title">
-            <span>{title}</span>
-            <h3>{title2Left}</h3>
-            <p>{textLeft}</p>
+            <span>{choice?.choiceTitleUp}</span>
+            <h3>{choice?.choiceTitleBottom1}</h3>
+            <p>{choice?.choiceText1}</p>
             <ul>
               {markData &&
                 markData.map((item) => {
@@ -38,8 +27,8 @@ function HomeChoice({
         </div>
         <div className="choice-container">
           <div className="choice-title">
-            <h3>{title2Rigth}</h3>
-            <p>{textRigth}</p>
+            <h3>{choice?.choiceTitleBottom2}</h3>
+            <p>{choice?.choiceText2}</p>
 
             <div className="choice-num">
               <div className="num">
@@ -58,7 +47,7 @@ function HomeChoice({
             </div>
           </div>
           <div className="choice-img">
-            <img src={imgRigth} alt={altRigth} />
+            <img src={choice?.choiceImg2} alt={choice?.choiceAlt} />
           </div>
         </div>
       </div>

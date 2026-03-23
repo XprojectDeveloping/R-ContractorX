@@ -15,14 +15,7 @@ function About() {
       >
         <section>
           <MaxWidth>
-            {data?.mainAbout && (
-              <AboutHome
-                img={data?.mainAbout?.aboutImg}
-                alt={data?.mainAbout?.aboutAlt}
-                title={data?.mainAbout?.aboutTitleBottom}
-                text={data?.mainAbout.aboutText2}
-              />
-            )}
+            {data?.mainAbout && <AboutHome about={data?.mainAbout} />}
           </MaxWidth>
         </section>
       </motion.div>

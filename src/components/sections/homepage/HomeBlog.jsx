@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../../../styles/homepage/_homepage_blog.scss";
 import { useEffect, useState } from "react";
 
-function HomeBlog({ title, title2, btnText, img, alt, text, dataCard, btnTo }) {
+function HomeBlog({ blog, dataCard, btnTo }) {
   const [curretDate, setCurretDate] = useState(new Date());
 
   useEffect(() => {
@@ -16,14 +16,14 @@ function HomeBlog({ title, title2, btnText, img, alt, text, dataCard, btnTo }) {
   return (
     <>
       <div className="blog">
-        <span>{title}</span>
+        <span>{blog?.blogTitleUp}</span>
 
         <div className="blog-title">
-          <h3>{title2}</h3>
+          <h3>{blog?.blogTitleBottom}</h3>
 
           <div>
-            <Link to={btnTo} className="one">
-              {btnText}
+            <Link to={blog?.btnTo} className="one">
+              {blog?.blogBtn}
             </Link>
           </div>
         </div>
@@ -31,10 +31,10 @@ function HomeBlog({ title, title2, btnText, img, alt, text, dataCard, btnTo }) {
         <div className="blog-post-cards">
           <div className="blog-post-card-left">
             <div className="blog-post-card-left-img">
-              <img src={img} alt={alt} />
+              <img src={blog?.blogImg} alt={blog?.blogAlt} />
             </div>
             <div className="blog-post-card-left-text">
-              <p>{text}</p>
+              <p>{blog?.blogText}</p>
               <div className="time">
                 <span>{curretDate.getDate()}/</span>
                 <span>
