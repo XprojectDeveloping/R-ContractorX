@@ -159,14 +159,9 @@ main {
 @media screen and (max-width: 480px) {
   main {
     .banner {
-      .banner-img {
-        height: 28vh;
-      }
       .banner-text {
-        p {
-          display: none;
-        }
         .banner-buttons {
+          display: none;
           a {
             font-size: 1.3rem;
 
